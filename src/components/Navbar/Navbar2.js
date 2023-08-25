@@ -6,17 +6,17 @@ const Navbar2 = (props) => {
 
   return (
     <nav className="navbar navbar-expand-lg bg-light" style={{fontFamily:' "Merriweather", serif'}}>
-      <a className="nav-link" style={{ marginLeft: "20px" }}>
-        GKMIT RESTAURANT <span className="sr-only"></span>
+      <a className="nav-link" >
+        Daily Delight<span className="sr-only"></span>
       </a>
       <Link className="navbar-brand mx-auto">
-        <b>Checkout the Tasty Food </b>
+        
       </Link>
       <Link className="btn btn-primary mx-4" to="/aboutus" role="button">
         About Us
       </Link>
       <Link className="btn btn-primary mx-1" to="/contactus" role="button">
-        Contact Us
+        Book Table
       </Link>
       <Link className="btn btn-primary mx-4" to="/cart">
         Cart

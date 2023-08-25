@@ -70,3 +70,7 @@ position: fixed;
 top: 65px;
 right: 1px;
 }
+
+.navbar navbar-expand-lg bg-light {
+  background-color: lightsteelblue !important;
+}
